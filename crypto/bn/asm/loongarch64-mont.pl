@@ -55,7 +55,7 @@
 
 ######################################################################
 # Here is register layout for LOONGARCH ABIs.
-# The return value is placed in $v0($a0).
+# The return value is placed in $a0.
 
 ($zero,$ra,$tp,$sp,$fp)=map("\$r$_",(0..3,22));
 ($a0,$a1,$a2,$a3,$a4,$a5,$a6,$a7)=map("\$r$_",(4..11));
